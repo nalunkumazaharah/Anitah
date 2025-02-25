@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        form{
+
+            border: solid 1px;
+            Width: 40%;
+            margin: 0 auto;
+            padding : 10px;
+            height: 60%;
+            border-color: black;
+            height: 60%;
+            box-shadow: 20px 20px 9px 9px grey;
+            
+        }#input{
+            padding: 10px;
+            width: 80%;
+            margin: 0 auto;
+
+        }#terms{
+            background-color: black;
+            border-radius: 15px;
+            padding: 12px 8px;
+            color:white;
+            cursor: pointer;
+            margin: 10px;
+            width: 80%;
+        }
+        .hr-lines{
+            position: relative;
+            max-width: 500px;
+            margin: 100px auto;
+            text-align: center;
+          }
+          
+          .hr-lines:before{
+            content:" ";
+            height: 2px;
+            width: 130px;
+            background:black;
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 0;
+          }
+          
+          .hr-lines:after{
+            content:" ";
+            height: 2px;
+            width: 130px;
+            background:black;
+            display: block;
+            position: absolute;
+            top: 50%;
+            right: 0;
+
+          }#facebook{
+            align-content: center;
+          }#google{
+            align-content: center;
+          }
+
+
+
+
+    
+    </style>
+</head>
+<body>
+    <form>
+        <br>
+    <p>Don't have an account?<a href="index.html">Sign up</a></p>
+    <br>
+    <h1  style ="color:black;"> sign in</h1>
+    <br>
+    <label for="Email"> Email:</label>
+    <br>
+    <br>
+    <input type="" id="input" placeholder="Enter Email"/>
+    <br>
+    <br>
+    <label for="password">Password:</label>
+    <br>
+    <br>
+    <input type="" id="input" placeholder="Enter password"/>
+    <br>
+    <br>
+    <input type="checkbox" id="Terms">I've Read And Agree with The<a href="Terms of service">Terms of service</a>And our <a href="privacy Policy">Privacy Policy</a> 
+    <br>
+    <br>
+    <button type="submit" id="terms" ><a href="form-tables.html" style="color: white;">Sign in</a></button>
+    <br>
+    <br>
+    <h2 class="hr-lines">or sign in with</h2>
+    <div style="display: flex; justify-content: center;gap: 60px;">
+        <i class="fa fa-google"id="icons"></i>
+        <i class="fa fa-facebook-f"id="icons"></i>   
+
+    
+
+
+
+
+        
+    </form>
+    
+</body>
+</html>
